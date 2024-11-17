@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)" # Alinhado com sua versão do Forge
+license="MIT" # Substitua pelo tipo de licença que está usando (MIT foi mencionado antes)
+
+[[mods]]
+modId="ecm" # Deve corresponder ao MOD_ID na classe principal
+version="1.0.0" # Versão do seu mod
+displayName="Essentials Commands Mod" # Nome do mod
+description='''
+Mod com comandos essenciais como /sethome e /home.
+'''
+authors="Koomplo" # Nome do autor
+
+[[dependencies.ecm]]
+modId="forge" # Dependência do Forge
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ecm]]
+modId="minecraft" # Dependência do Minecraft
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
